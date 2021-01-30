@@ -1,1 +1,6 @@
-<p>heros-filter works!</p>
+<h1 class="animated fadeIn fast">Heros <small>Marvel and DC</small></h1>
+<hr>
+<div class="card-columns animated fadeIn">
+
+  <app-hero-card class="animated fadeIn" [hero]="hero" [index]="i" *ngFor="let hero of heros; let i = index" ></app-hero-card>
+</div>
